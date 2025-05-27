@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -60,7 +61,12 @@
       background: #a00000;
     }
 
-    
+    .video-preview {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
 
     video {
       width: 100%;
@@ -68,6 +74,7 @@
       border-radius: 20px;
       box-shadow: 0 0 20px #c10000;
       border: 4px solid #c10000;
+      display: block;
     }
 
     .hero {
@@ -125,12 +132,8 @@
     <a href="https://forms.gle/ixMJZvXVSuAikvyF6" target="_blank">Pre-Order Now</a>
   </div>
 
-  <div class="">
+  <div class="video-preview">
     <video src="landscapre.mp4" controls autoplay muted loop playsinline></video>
-  </div>
-
-  <div class="hero">
-   <img src="landscapre.mp4" alt="">
   </div>
 
   <div class="section">
@@ -148,3 +151,4 @@
 </body>
 
 </html>
+

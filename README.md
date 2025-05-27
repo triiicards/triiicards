@@ -60,11 +60,7 @@
       background: #a00000;
     }
 
-    .video-preview {
-      display: flex;
-      justify-content: center;
-      padding: 1rem 2rem;
-    }
+    
 
     video {
       width: 100%;
@@ -129,12 +125,12 @@
     <a href="https://forms.gle/ixMJZvXVSuAikvyF6" target="_blank">Pre-Order Now</a>
   </div>
 
-  <div class="video-preview">
+  <div class="">
     <video src="landscapre.mp4" controls autoplay muted loop playsinline></video>
   </div>
 
   <div class="hero">
-    <img src="https://via.placeholder.com/800x400?text=TRIIICARDS+Design+Preview" alt="Third I Playing Cards Preview">
+   <img src="landscapre.mp4" alt="">
   </div>
 
   <div class="section">
